@@ -1,0 +1,419 @@
+.control-group.date-info.date-info--has-prev-arrow{
+    padding: 0 5px;
+}
+
+#dailyplanner__header-wrapper{
+ grid-template-areas:
+'header-left header-right header-middle '
+'categoryfilter categoryfilter categoryfilter'
+}
+/*
+.coral3-ActionBar-secondary{
+    display: flex;
+    align-items: center;
+}*/
+
+.editor-GlobalBar-pageTitle{
+    width: inherit;
+    
+} 
+/*___AEM VENUE VIEW___*/
+
+.coral3-Dialog-content {
+    min-height: 58vh;
+    max-height: 75vh;
+    overflow: inherit;
+}
+/*Assets menu order*/
+#coral-id-32 {
+    display: flex;
+    flex-direction: column;
+}
+.coral3-SelectList.coral3-Select-selectList :nth-child(3) {
+    order: 1;
+}
+.coral3-SelectList.coral3-Select-selectList :nth-child(1) {
+    order: 3;
+}
+.coral3-SelectList.coral3-Select-selectList :nth-child(2) {
+    order: 2;
+}
+.coral3-SelectList.coral3-Select-selectList :nth-child(4) {
+    order: 4;
+}
+.coral3-SelectList.coral3-Select-selectList :nth-child(5) {
+    order: 5;
+}
+.coral3-SelectList.coral3-Select-selectList :nth-child(6) {
+    order: 6;
+}
+.coral3-SelectList.coral3-Select-selectList :nth-child(7) {
+    order: 7;
+}
+.coral3-SelectList.coral3-Select-selectList :nth-child(8) {
+    order: 8;
+}
+.coral3-SelectList.coral3-Select-selectList :nth-child(9) {
+    order: 9;
+}
+.coral3-SelectList.coral3-Select-selectList :nth-child(10) {
+    order: 10;
+}
+.coral3-SelectList.coral3-Select-selectList :nth-child(11) {
+    order: 11;
+}
+.coral3-SelectList.coral3-Select-selectList :nth-child(12) {
+    order: 12;
+}
+.coral3-SelectList.coral3-Select-selectList :nth-child(13) {
+    order: 13;
+}
+.coral3-SelectList.coral3-Select-selectList :nth-child(14) {
+    order: 14;
+}
+.coral3-SelectList.coral3-Select-selectList :nth-child(15) {
+    order: 15;
+}
+
+/*Action menu order change*/
+#pageinfo-data.editor-PageInfo {
+    display: flex;
+    flex-direction: column;
+}
+#pageinfo-data :nth-child(1) {
+    order: 3;
+}
+#pageinfo-data :nth-child(2) {
+    order: 4;
+}
+#pageinfo-data :nth-child(3) {
+    order: 1;
+}
+#pageinfo-data :nth-child(4) {
+    order: 7;
+}
+#pageinfo-data :nth-child(5) {
+    order: 5;
+}
+#pageinfo-data :nth-child(6) {
+    order: 6;
+}
+#pageinfo-data :nth-child(7) {
+    order: 2;
+}
+#pageinfo-data :nth-child(8) {
+    order: 8;
+}
+
+/*Venue view adjustment*/
+.TimeSheet {
+    line-height: normal;
+    padding: 0;
+}
+
+/*Information grid adjustment*/
+.detail-information {
+    grid-template-columns: 2fr 5fr;
+}
+
+/*Header Image Size*/
+.venue2-image-background {
+    height: initial;
+}
+/*Description section*/
+.venue2-details-section {
+    margin-bottom: 0.7rem;
+}
+.venue2-details-section__content{
+      font-size: .7rem;
+}
+/*Menu list*/
+.menu-venue2-links-list__item {
+    padding: 0 0 0 4px;
+}
+.DaysList__item:hover,
+.menu-venue2-links-list__item:hover {
+    background-color: #61e8f69e;
+    border-radius: 6px;
+}
+/*Title*/
+.venue2-details-section__title {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: normal;
+    border-bottom: 1px solid #0f0f0f;
+}
+/*Remove up|down arrows*/
+.order-asc,
+.order-desc {
+    display: none;
+}
+/*Side Bar*/
+.detail-sidebar {
+    display: flex;
+    justify-content: space-between; /*OP Hours, Menu position*/
+    padding: 1rem;
+    margin-right: 0.5rem;
+    max-height: 38vh;
+
+}
+/*
+.cq-Editable-dom:nth-child(2){
+    display: none;
+}*/
+.cq-Editable-dom{
+    width: 100%;
+    overflow-y: auto;
+}
+
+
+.DaysList {
+    margin-top: 0.5rem;
+}
+.DaysList__title{
+    min-width:49px;
+    margin: 0 0.8rem 0 0; /*space between Day and Hours*/
+}
+.DaysList__item {
+    display: flex;
+    margin: 0;
+}
+.OperatingHoursList__title {
+    line-height: 100%;
+    font-size: 1.125rem;
+}
+.OperatingHoursList__timesheetWrapper {
+    margin: 0;
+    max-height: initial;
+}
+.HoursList {
+    padding: 0;
+    grid-gap: 0;
+    gap: 0;
+}
+.HoursList__hoursRange {
+    text-align: initial;
+    font-size: 0.9rem;
+    padding: 0 0 0 4px;
+}
+.menu-venue2 {
+    margin: 0;
+}
+.venue2-details-section__list {
+    line-height: normal;
+}
+/*Menu Type Cell*/
+.operating-hour__update-background,
+.operating-hour {
+    display: flex;
+    flex-direction: column;
+    margin: initial !important;
+}
+/*Order list Menu Type Cell*/
+.operating-hour__update-background :nth-child(1),
+.operating-hour :nth-child(1) {
+    order: 3;
+}
+.operating-hour__update-background :nth-child(2),
+.operating-hour :nth-child(2) {
+    order: 2;
+    padding-left: 0.8em;
+}
+.operating-hour__update-background :nth-child(3),
+.operating-hour :nth-child(3) {
+    order: 4;
+}
+.operating-hour__update-background :nth-child(4),
+.operating-hour :nth-child(4) {
+    order: 1;
+    right: initial;
+}
+.operating-hour__update-background :nth-child(5),
+.operating-hour :nth-child(5) {
+    order: 5;
+}
+.operating-hour__update-background :nth-child(n),
+.operating-hour {
+    margin: initial;
+    text-align: left;
+}
+/*Remove scroll from opearating hours*/
+.OperatingHoursCalendar {
+    max-height: 1052px;
+}
+/*___AEM DAY VIEW___*/
+/*Scale checkbox, Scale Edit Button */
+.offering-list__column input[type='checkbox']{
+    transform: scale(1.5);
+}
+.edit-offering-button {
+    display: none;
+}
+/*Hide DINNER and EXCURSION*/
+.category-filter__container :nth-child(3),
+.category-filter__container :nth-child(5){
+    display: none;
+}
+.category-filter__container{
+    width: 95vw;
+}
+
+/*Highlight active category*/
+.category-filter__item-selected {
+    color: black;
+    background-color: #ffe300;
+    border-radius: 4px;
+}
+/*Highlight Checked Row*/
+.offering-list__row.selected {
+    box-shadow: inset 0px 0px 12px 0px #009dff;
+}
+/*Hover effect product row*/
+.offering-list__row.unpublished:hover{
+    border: 1px green solid;
+    box-shadow: inset 0px 0px 5px 0px rgba(153,127,127,0.72);
+    
+}
+.offering-list__row.published:hover {
+    border: 1px green solid;
+    background-color: bisque;
+
+}
+.offering-list__row.unpublished:hover>.title,
+.offering-list__row.published:hover>.title {
+    font-weight: bold!important;
+    color: red;
+}
+
+/* "Start/End" time background color*/
+.input-time__container {
+    background-color: #fff;
+}
+/*-------------------*/
+.offering-list__row {
+    min-height: 3rem;
+    border: 1px solid #e7dbdb;
+    grid-column-gap: 1px;
+    margin: 0;
+    padding: 0 0 0 0.6rem;
+}
+/*Header row title status change color*/
+.offering-list__row.header > .column-order,
+.offering-list__row.header > .column-order--ascending {
+    color: blue !important;
+    background-color: #f5ff86;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+}
+.offering-list__row.header > .column-order {
+    border-bottom-color: #0087ff;
+}
+.offering-list__row.header > .column-order--ascending {
+    border-top-color: #0087ff;
+}
+/*Unpublished/Pending event background*/
+.offering-list__row.unpublished {
+    background-color: #e7dbdb;
+    border: 0.5px solid lightgray;
+}
+/*__Header column settings__*/
+/*Remove padding from rows*/
+.header .offering-list__column {
+    padding: 0.5rem 0.4rem !important;
+    border-radius: 4px;
+}
+.header .offering-list__column.status {
+  min-width: initial;
+  margin: 0 auto;
+}
+.header .offering-list__column:hover {
+    background-color: #dce38f;
+}
+.offering-list__column {
+    padding: 0 !important;
+    color: #0f0f0f !important;
+    width: fit-content;
+}
+.offering-list__column.title {
+    padding-left: 0.3rem;
+}
+.offering-list__column:last-child {
+    margin-right: 0 !important;
+}
+/*----------*/
+.start-time,
+.end-time {
+    min-width: initial !important;
+}
+.timer-button--plus {
+    display: block;
+}
+/*Edit menu buttons(Save/Cancel/Delete)*/
+.edit-panel__actions-container {
+    position: static; /*Move Up*/
+    padding: 0;
+}
+/*Save/Cancel/Delete buttons view adjustement*/
+.edit-panel-button {
+    display: block;
+    margin: 0.5rem auto !important;
+    width: 20rem !important;
+    height: 4rem !important;
+}
+/*NTK fullscreen view*/
+.ntk-modal {
+    height: 90vh;
+    width: 80vw;
+    max-width: 1124px;
+}
+/*NTK Decks view*/
+.deckcards {
+    justify-content: space-evenly;
+}
+.coral-FixedColumn-column {
+    width: 100%;
+}
+.cq-Dialog .coral3-Dialog-wrapper,
+.coral3-Dialog-wrapper.u-coral-openHand {
+    position: static !important;
+    width: initial !important;
+    height: initial !important;
+    margin: 13rem auto 0 auto !important;
+    max-width: 1240px;
+    width: 80vw !important;
+   
+}
+.coral3-Dialog-wrapper{
+    margin-top: 7vh;
+   /* top: 25vh !important;*/
+}
+.cq-dialog-floating .cq-dialog-content {
+    width: initial !important;
+    height: initial !important;
+    overflow: initial;
+}
+.coral-SelectList {
+    max-height: 40vh;
+}
+.coral3-Dialog-footer {
+    display: flex;
+    justify-content: space-between;
+}
+.coral3-Card {
+    max-width: 15rem;
+}
+/*___AEM PRODUCT PAGE___*/
+/*Resizable description field*/
+.foundation-layout-util-resizable-none {
+    resize: vertical;
+}
+.coral-Form--vertical.cq-dialog.foundation-form.foundation-layout-form{
+    overflow: scroll;
+}
+/*
+aside.detail-sidebar div:first-child{
+    flex-basis: 30%;
+}*/
+.rbc-day-slot .rbc-event-label{
+    justify-content: left !important;
+}
